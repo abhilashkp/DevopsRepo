@@ -25,7 +25,7 @@ stages:
         containerRegistry: 'AZDockerHubConnection'
         repository: 'abhilash2018/weatherapi'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'
+        # Dockerfile: '**/Dockerfile'
         tags: |
           $(tag)
     
